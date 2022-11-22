@@ -53,7 +53,16 @@ export const MainContent = styled.div`
 `
 
 export const Sidebar = styled.div`
+    max-width: 15.25rem;
+    width: 100%;
 
+    li{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        width: 100%;
+    }
 `
 
 export const MainSection = styled.div`
